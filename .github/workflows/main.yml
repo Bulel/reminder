@@ -24,7 +24,7 @@ jobs:
         run: pyinstaller --onefile reminder.py
 
       - name: Upload EXE artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: reminder-exe
           path: dist/reminder.exe
