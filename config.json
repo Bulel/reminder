@@ -1,0 +1,17 @@
+{
+  "reminders": [
+    {
+      "message": "Time to drink water!",
+      "days": [1, 2, 3, 4, 5],
+      "hour_range": [9, 21],
+      "interval_minutes": 60
+    },
+    {
+      "message": "Stand up and stretch!",
+      "days": [1, 2, 3, 4, 5],
+      "hour_range": [10, 17],
+      "interval_minutes": 90
+    }
+  ],
+  "quiet_hours": [22, 7]
+}
