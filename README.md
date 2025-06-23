@@ -1,1 +1,2 @@
 # reminder
+For windows OS
