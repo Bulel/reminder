@@ -21,7 +21,7 @@ jobs:
         run: pip install pyinstaller
 
       - name: Build EXE
-        run: pyinstaller --onefile reminder.py
+        run: pyinstaller --onefile --noconsole reminder.py
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
